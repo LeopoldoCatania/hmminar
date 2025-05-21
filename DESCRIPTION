@@ -1,0 +1,15 @@
+Package: hmminar
+Type: Package
+Title: Estimate the HMMINAR models
+Version: 0.1.0
+Authors@R: c(person("Leopoldo", "Catania", role = c("aut", "cre"),
+             email = "leopoldo.catania@econ.au.dk",
+             comment = c(ORCID = "0000-0002-0981-1921")))
+Maintainer: Leopoldo Catania <leopoldo.catania@econ.au.dk>
+Description: Estimate the HMMINAR models
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Imports: Rcpp (>= 1.0.10)
+LinkingTo: Rcpp, RcppArmadillo
+Depends: numDeriv
