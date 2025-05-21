@@ -12,6 +12,7 @@ source(paste(sPath, "code/functions.R", sep = ""))
 
 vPeriods = c("Full", "Opening", "MidDay", "Closing")
 
+# setting up the seasonal dummies
 Opening = 1:10 #first half hour (note that first seasons are 1,2,3 minutes and then 4:5, 6:10, etc.)
 MidDay  = 34:58 #from 2.5h to 4.5h
 Closing = 76:81 #from 6h to 6.5h
